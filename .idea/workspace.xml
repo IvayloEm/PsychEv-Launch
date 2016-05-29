@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d7973da6-070c-4f11-8316-d7c97e0bbaff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/app/nonmember/landingPage.html" afterPath="$PROJECT_DIR$/client/app/non-member/landingPage.html" />
     </list>
     <ignored path="PsychEv-Launch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,26 +28,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.730769">
               <caret line="237" column="37" selection-start-line="237" selection-start-column="37" selection-end-line="237" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0">
-              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,10 +67,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tDashboard.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tDashboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/app/therapist/tDashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.573991">
+            <state vertical-scroll-proportion="-78.46154">
               <caret line="174" column="10" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#template#0;n#!!top" expanded="true" />
@@ -101,34 +80,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/chart.js">
+      <file leaf-file-name="instructor-profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../learnplus-v1.0.1/dist/instructor-profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.3076923">
+              <caret line="289" column="51" selection-start-line="289" selection-start-column="51" selection-end-line="289" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chart.min.js.map" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/chart.min.js.map">
+      <file leaf-file-name="tAccount.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/therapist/tAccount.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="sourcemapFileViewerProvider">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="instructor-earnings.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../learnplus-v1.0.1/dist/instructor-earnings.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.115385">
+              <caret line="305" column="8" selection-start-line="192" selection-start-column="0" selection-end-line="305" selection-end-column="8" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/navbar.html">
+      <file leaf-file-name="tEarnings.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/app/therapist/tEarnings.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6923075">
-              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.6950673">
+              <caret line="139" column="10" selection-start-line="139" selection-start-column="10" selection-end-line="139" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/chart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,6 +157,8 @@
         <option value="$PROJECT_DIR$/client/templates/therapistSidebarLeft.html" />
         <option value="$PROJECT_DIR$/client/app/member/dashboard.html" />
         <option value="$PROJECT_DIR$/client/app/therapist/tDashboard.html" />
+        <option value="$PROJECT_DIR$/client/app/therapist/tProfile.html" />
+        <option value="$PROJECT_DIR$/client/app/therapist/tEarnings.html" />
       </list>
     </option>
   </component>
@@ -508,7 +506,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464546952010</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Landing Page + Dashboard v1.1">
+      <created>1464547171695</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1464547171695</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -834,12 +838,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app/therapist/tDashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.573991">
+        <state vertical-scroll-proportion="-78.46154">
           <caret line="174" column="10" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#template#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../learnplus-v1.0.1/dist/instructor-earnings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="305" column="8" selection-start-line="192" selection-start-column="0" selection-end-line="305" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../learnplus-v1.0.1/dist/instructor-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="289" column="51" selection-start-line="289" selection-start-column="51" selection-end-line="289" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/therapist/tAccount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/therapist/tEarnings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6950673">
+          <caret line="139" column="10" selection-start-line="139" selection-start-column="10" selection-end-line="139" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
