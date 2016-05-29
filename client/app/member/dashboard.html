@@ -1,0 +1,124 @@
+<template name="dashboard">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Dashboard</title>
+
+  <!-- Material Design Icons  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Roboto Web Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+
+  <!-- App CSS -->
+  <link type="text/css" href="/css/style.min.css" rel="stylesheet">
+
+</head>
+
+<body class="layout-container ls-top-navbar si-l3-md-up">
+
+{{> navbar }}
+
+{{> sidebarLeft }}
+
+  <!-- Content -->
+  <div class="layout-content" data-scrollable>
+    <div class="container-fluid">
+
+      <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li class="active">Dashboard</li>
+      </ol>
+      <div class="card card-stats-primary">
+        <div class="card-block">
+          <div class="media">
+            <div class="media-left media-middle">
+              <i class="material-icons text-muted-light">credit_card</i>
+            </div>
+            <div class="media-body media-middle">
+              Your subscription ends on
+              <strong>25 February 2015</strong>
+            </div>
+            <div class="media-right">
+              <a class="btn btn-success btn-rounded" href="pay.html">Upgrade</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+            <div class="card">
+                <div class="card-button-wrapper">
+                    <div class="dropdown">
+                        <a href="#" class="card-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#">Radar Chart</a>
+                            <a class="dropdown-item" href="#">Bar Chart</a>
+                            <a class="dropdown-item" href="#">Profile Chart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-block">
+                    <h5 class="card-title">Your Brain Activity</h5>
+                    <p class="card-text">This is your last session data:</p>
+                    <div class="card-block"><iframe style="width: 100%; display: block; border: 0px none; height: 0px; margin: 0px; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;" class="chartjs-hidden-iframe"></iframe>
+                        <canvas style="width: 408px; height: 306px;" id="radarChart" height="306" width="408"></canvas>
+                    </div>
+                    <a href="#" class="btn btn-primary">Details</a>
+                </div>
+                <!-- any more cards go here (Ivo) -->
+            </div>
+        </div>
+        <div class="col-md-5">
+          <div class="card">
+            <div class="card-header bg-white">
+              <h4 class="card-title">Rewards</h4>
+              <p class="card-subtitle">Your latest achievements</p>
+            </div>
+            <div class="card-block center">
+              <div class="btn btn-primary btn-circle"><i class="material-icons">thumb_up</i></div>
+              <div class="btn btn-danger btn-circle"><i class="material-icons">grade</i></div>
+              <div class="btn btn-success btn-circle"><i class="material-icons">bubble_chart</i></div>
+              <div class="btn btn-warning btn-circle"><i class="material-icons">keyboard_voice</i></div>
+              <div class="btn btn-info btn-circle"><i class="material-icons">event_available</i></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header bg-white">
+              <div class="media">
+                <div class="media-body media-middle">
+                  <h4 class="card-title">Next Session</h4>
+                  <p class="card-subtitle">Focus Training</p>
+                </div>
+                <div class="media-right media-middle">
+                  <a class="btn btn-white" href="forum.html"> <i class="material-icons">keyboard_arrow_right</i></a>
+                </div>
+              </div>
+            </div>
+            <ul class="list-group list-group-fit">
+                <img src="/images/gulp.png" alt="Card image cap" style="width:100%;">
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="/vendor/jquery.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="/vendor/tether.min.js"></script>
+  <script src="/vendor/bootstrap.min.js"></script>
+
+  <!-- AdminPlus -->
+  <script src="/vendor/adminplus.js"></script>
+
+  <!-- App JS -->
+  <script src="/js/main.min.js"></script>
+
+</body>
+</template>
