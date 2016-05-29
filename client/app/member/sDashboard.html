@@ -1,9 +1,10 @@
-<template name="dashboard">
+<template name="sDashboard">
 <head>
-  <meta charset="utf-8">
+    <title>Dashboard</title>
+
+    <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Dashboard</title>
 
   <!-- Material Design Icons  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -20,7 +21,7 @@
 
 {{> navbar }}
 
-{{> sidebarLeft }}
+{{> studentSidebarLeft }}
 
   <!-- Content -->
   <div class="layout-content" data-scrollable>
@@ -61,7 +62,7 @@
                 </div>
                 <div class="card-block">
                     <h5 class="card-title">Your Brain Activity</h5>
-                    <p class="card-text">This is your last session data:</p>
+                    <p class="card-text">Last session data:</p>
                     <div class="card-block"><iframe style="width: 100%; display: block; border: 0px none; height: 0px; margin: 0px; position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;" class="chartjs-hidden-iframe"></iframe>
                         <canvas style="width: 408px; height: 306px;" id="radarChart" height="306" width="408"></canvas>
                     </div>
@@ -88,7 +89,7 @@
             <div class="card-header bg-white">
               <div class="media">
                 <div class="media-body media-middle">
-                  <h4 class="card-title">Next Session</h4>
+                  <h4 class="card-title">Continue to Next Session</h4>
                   <p class="card-subtitle">Focus Training</p>
                 </div>
                 <div class="media-right media-middle">
@@ -103,22 +104,7 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
-
-  <!-- jQuery -->
-  <script src="/vendor/jquery.min.js"></script>
-
-  <!-- Bootstrap -->
-  <script src="/vendor/tether.min.js"></script>
-  <script src="/vendor/bootstrap.min.js"></script>
-
-  <!-- AdminPlus -->
-  <script src="/vendor/adminplus.js"></script>
-
-  <!-- App JS -->
-  <script src="/js/main.min.js"></script>
-
 </body>
 </template>
