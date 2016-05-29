@@ -3,13 +3,13 @@
     <div class="sidebar-heading">APPLICATIONS</div>
     <ul class="sidebar-menu">
         <li class="sidebar-menu-item">
-            <a class="sidebar-menu-button" href="index.html">
-                <i class="sidebar-menu-icon material-icons">account_box</i> Student
+            <a class="sidebar-menu-button" href="{{pathFor route='uDashboard'}}">
+                <i class="sidebar-menu-icon material-icons">account_box</i> Client
             </a>
         </li>
         <li class="sidebar-menu-item active">
-            <a class="sidebar-menu-button" href="instructor-dashboard.html">
-                <i class="sidebar-menu-icon material-icons">school</i> Instructor
+            <a class="sidebar-menu-button" href="{{pathFor route='tDashboard'}}">
+                <i class="sidebar-menu-icon material-icons">school</i> Therapist
             </a>
         </li>
     </ul>
@@ -21,12 +21,12 @@
             </a>
         </li>
         <li class="sidebar-menu-item">
-            <a class="sidebar-menu-button" href="instructor-profile.html">
+            <a class="sidebar-menu-button" href="{{pathFor route='tPublicProfile'}}">
                 <i class="sidebar-menu-icon material-icons">language</i> Public Profile
             </a>
         </li>
         <li class="sidebar-menu-item">
-            <a class="sidebar-menu-button" href="instructor-account.html">
+            <a class="sidebar-menu-button" href="{{pathFor route='tAccount'}}">
                 <i class="sidebar-menu-icon material-icons">account_box</i> Account Settings
             </a>
         </li>
@@ -36,12 +36,12 @@
             </a>
         </li>
         <li class="sidebar-menu-item">
-            <a class="sidebar-menu-button" href="instructor-earnings.html">
+            <a class="sidebar-menu-button" href="{{pathFor route='tEarnings'}}">
                 <i class="sidebar-menu-icon material-icons">trending_up</i> Earnings
             </a>
         </li>
         <li class="sidebar-menu-item">
-            <a class="sidebar-menu-button" href="instructor-statement.html">
+            <a class="sidebar-menu-button" href="{{pathFor route='tStatement'}}">
                 <i class="sidebar-menu-icon material-icons">receipt</i> Statement
             </a>
         </li>
