@@ -1,0 +1,62 @@
+<template name="tClients">
+    <head>
+        <title>Dashboard</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Material Design Icons  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Roboto Web Font -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+
+        <!-- App CSS -->
+        <link type="text/css" href="/css/style.min.css" rel="stylesheet">
+
+    </head>
+
+    <body class="layout-container ls-top-navbar si-l3-md-up">
+
+    {{> navbar }}
+
+    {{> therapistSidebarLeft }}
+
+    <!-- Content -->
+    <div class="layout-content" data-scrollable>
+        <div class="container-fluid">
+
+            <div class="card-deck-wrapper">
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" data-src="..." alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Chad Walker</h4>
+                            <p class="card-text">Age: 37<br>Gender: Male<br></p>
+                            <p class="card-text"><small class="text-muted">Anxiety relief</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" data-src="..." alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">James Gregory</h4>
+                            <p class="card-text">Age: 22<br>Gender: Male<br></p>
+                            <p class="card-text"><small class="text-muted">ADHD Relief</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" data-src="..." alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Rosanna Jones</h4>
+                            <p class="card-text">Age: 23 <br>Gender: Female<br></p>
+                            <p class="card-text"><small class="text-muted">Focus training</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </body>
+</template>
