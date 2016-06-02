@@ -1,0 +1,160 @@
+<template name="uQuiz">
+    <head>
+        <title>Dashboard</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Material Design Icons  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Roboto Web Font -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+
+        <!-- App CSS -->
+        <link type="text/css" href="/css/style.min.css" rel="stylesheet">
+
+    </head>
+
+    <body class="layout-container ls-top-navbar si-l3-md-up">
+
+    {{> navbar }}
+
+    {{> studentSidebarLeft }}
+
+    <!-- Content -->
+    <div class="layout-content" data-scrollable>
+        <div class="container-fluid">
+
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Quiz</li>
+            </ol>
+<!--            <div class="card-group">
+                <div class="card">
+                    <div class="card-block center">
+                        <h4 class="m-b-0">
+                            <strong>25</strong>
+                        </h4>
+                        <small class="text-muted-light">TOTAL</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block center">
+                        <h4 class="text-success m-b-0">
+                            <strong>3</strong>
+                        </h4>
+                        <small class="text-muted-light">CORECT</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block center">
+                        <h4 class="text-danger m-b-0">
+                            <strong>5</strong>
+                        </h4>
+                        <small class="text-muted-light">WRONG</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block center">
+                        <h4 class="text-primary m-b-0">
+                            <strong>17</strong>
+                        </h4>
+                        <small class="text-muted-light">LEFT</small>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="card col-md-9">
+                <div class="card-header bg-white p-a-1">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <h4 class="m-b-0">
+                                <strong>#1</strong>
+                            </h4>
+                        </div>
+                        <div class="media-body  media-middle">
+                            <h4 class="card-title">
+                                Are you using headphones for this session?
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-block p-a-2">
+                    <div class="form-group">
+                        <label class="c-input c-checkbox">
+                            <input type="checkbox">
+                            <span class="c-indicator"></span> Yes
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label class="c-input c-checkbox">
+                            <input type="checkbox">
+                            <span class="c-indicator"></span> No
+                        </label>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-white ">Skip</a>
+                    <a href="#" class="btn btn-success btn-rounded pull-xs-right">Submit <i class="material-icons">send</i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="sidebar sidebar-right si-si-3 ls-top-navbar-xs-up sidebar-light bg-white sidebar-visible" id="sidebarRight" data-position="right" data-scrollable="" data-visible="lg-up">
+        <div class="sidebar-heading">Pending</div>
+        <ul class="list-group list-group-fit">
+            <li class="list-group-item active">
+                <a href="#">
+          <span class="media">
+					<span class="media-left">
+						<span class="btn btn-white btn-circle">#1</span>
+          </span>
+          <span class="media-body media-middle">
+						Headphones
+					</span>
+          </span>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">
+          <span class="media">
+						<span class="media-left">
+							<span class="btn btn-white btn-circle">#2</span>
+          </span>
+          <span class="media-body media-middle">
+							Emotional state
+						</span>
+          </span>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">
+          <span class="media">
+					<span class="media-left">
+						<span class="btn btn-white btn-circle">#3</span>
+          </span>
+          <span class="media-body media-middle">
+						Current Productivity
+					</span>
+          </span>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a href="#">
+          <span class="media">
+					<span class="media-left">
+						<span class="btn btn-white btn-circle">#4</span>
+          </span>
+          <span class="media-body media-middle">
+						Final Question?
+					</span>
+          </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    </body>
+</template>

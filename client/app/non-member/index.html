@@ -1,0 +1,740 @@
+<template name="landingPage">
+
+<head>
+        <meta charset="utf-8" />
+        <title>Katemi - Clean Responsive Product, Service and App Landing Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Katemi - Clean Responsive Product, Service and App Landing Page built with Bootstrap 3.0.3" />
+        <meta name="author" content="Works of Wisnu" />
+        
+        <!-- Le styles -->
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <link href="/css/style2.css" rel="stylesheet" />
+        <link href="/css/style-responsive2.css" rel="stylesheet" />
+        <link href="/css/iconfont.css" rel="stylesheet" />
+        
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,400italic,500italic" rel="stylesheet" type="text/css" /> <!-- Google Web Fonts - Roboto -->
+        <link href="/css/animate.min.css" rel="stylesheet" /> <!-- Animated CSS -->
+        <link href="/css/flexslider.css" rel="stylesheet" /> <!-- Flexslider CSS -->
+        <link rel="stylesheet" href="/css/prettyPhoto.css" type="text/css" media="screen" /> <!-- PrettyPhoto CSS -->
+        <link rel="stylesheet" href="/css/hopscotch-0.1.2.min.css" type="text/css" media="screen" /> <!-- Hopscotch Take Tour CSS -->
+        
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+        
+        <!-- Fav and touch icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/ico/apple-touch-icon-144-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/ico/apple-touch-icon-114-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/ico/apple-touch-icon-72-precomposed.png" />
+        <link rel="apple-touch-icon-precomposed" href="/images/ico/apple-touch-icon-57-precomposed.png" />
+        <link rel="shortcut icon" href="/images/ico/favicon.png" />
+        
+    </head>
+    
+    <body>
+        <!-- Begin Main Container Section -->
+        <div id="home" class="main-container">
+        
+            <!-- Top Nav -->
+            <section id="top-nav">
+            
+                <div class="katemi-nav navbar navbar-inverse navbar-fixed-top" role="navigation">
+                    
+                    <div class="navbar-header">
+                    	
+                    	<!-- <a class="navbar-brand" href="#"><img src="/images/logo.png" alt="logo" class="images-responsive" /></a> -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			            	<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+                        
+                    </div> <!--/ .navbar-header -->
+                    
+                    <div class="container">
+                        
+                            <div class="navbar-collapse collapse">
+                                <ul class="nav nav-pills pull-right navbar-nav">
+                                    <li class="active"><a href="#home">Home</a></li>
+                                    <li><a href="#marketing">Overview</a></li>
+                                    <li><a href="#featurettes">Features</a></li>
+                                    <li><a href="#annotations">Annotations</a></li>
+                                    <li><a href="#lower-content">Pricing</a></li>
+                                    <li><a href="#contactModal">Contact</a></li>
+                                    <li><a href="{{pathFor route='uDashboard'}}" target="_blank">Client Demo</a></li>
+                                    <li><a href="{{pathFor route='tDashboard'}}" target="_blank">Therapist Demo</a></li>
+                                </ul>
+                            </div><!--/.navbar-collapse -->
+                        
+                    </div> <!--/ .container -->
+                    
+                </div> <!--/ .katemi-nav .navbar -->
+                
+            </section>
+            <!--/ #top-nav-->
+            
+            
+            <!-- Head Banner Section -->
+            <section id="head-banner" class="dark-bg">
+            
+                <div class="container">
+                
+                    <div class="row">
+                    
+                        <div class="col-md-12" id="tour-1">
+                        	<h1 class="tagline centered normal">Welcome to <span class="bolder">PsychEv</span></h1>
+                            <h3 class="centered lighter">Brain Hacking Now Made Easy!</h3>
+                        </div>
+                        
+                        <div class="col-md-12 head-cta">
+                            <div class="row">
+                            
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                	<a href="#" id="startTourBtn" class="medium-btn btn-default green-btn btn-default pull-right">Take a Tour</a>
+                                </div>
+                                
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                	<a href="#" class="medium-btn btn-default yellow-btn btn-default pull-left">Get The App</a>
+                                </div>
+                                
+                            </div>
+                        </div> <!--/ .head-cta -->
+                        
+                        <div class="col-md-12 product-teaser">
+                        
+                            <div class="row">
+                            
+                                <div class="col-md-3 col-sm-3 left-desc">
+                                    <p class="product-teaser-title">Measurable results</p>
+                                    <p class="product-teaser-desc">Increase your IQ, eliminate anxiety and supercharge your internal batteries!</p>
+                                </div> <!--/ .left-desc -->
+                                
+                                <div class="col-md-6 col-sm-6" id="tour-2">	
+                                	<a href="http://youtu.be/SZEflIVnhH8" rel="prettyPhoto" title="Video Lightbox"> <!-- Link to your youtube/vimeo video -->
+										<span class="play-button animated bounceIn"></span>
+										<img class="center-image images-responsive" src="/images/ss.png" alt="product-teaser" />
+									</a>
+                                </div>
+                                
+                                <div class="col-md-3 col-sm-3 right-desc">
+                                    <p class="product-teaser-title">Personal Attention</p>
+                                    <p class="product-teaser-desc">Discover to grow according to your unique unused potential.</p>
+                                </div> <!--/ .right-desc -->
+                                
+                            </div> <!--/ .row -->
+                            
+                        </div> <!--/ .product-teaser -->
+                        
+                        <div class="col-md-12 low-head-banner-wrapper" id="tour-3">
+                        
+                            <div class="centered">
+                            	<h5 class="lighter centered">Trusted by Top Worldwide Companies</h5>
+								<hr class="title-line" />
+                            </div>
+                            
+                            <div class="flexslider-low-head-banner">
+                            
+                                <ul class="slides">
+                                    <li>
+                                        <div class="row">
+                                        
+                                            <div class="client-logo">
+                                                <div class="col-md-3 col-sm-3 clients">
+                                                    <img class="animated fadeInRight images-responsive" src="/images/client1.png" alt="Client Logo" />
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 clients">
+                                                    <img class="animated fadeInRight images-responsive" src="/images/client2.png" alt="Client Logo" />
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 clients">
+                                                    <img class="animated fadeInLeft images-responsive" src="/images/client3.png" alt="Client Logo" />
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 clients">
+                                                    <img class="animated fadeInLeft images-responsive" src="/images/client4.png" alt="Client Logo" />
+                                                </div>
+                                            </div> <!--/ .client-logo -->
+                                            
+                                        </div> <!--/ .row -->
+                                    </li>
+                                    
+                                    <li>
+                                        <div class="row">
+                                        
+                                            <div class="col-md-12 testimonial">
+                                                <p class="testi animated bounceInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                                                <p class="author pull-right animated bounceInRight">John Doe, CEO of Lorem Ipsum Intl. Co.Ltd</p>
+                                            </div> <!--/ .testimonial -->
+                                            
+                                        </div> <!--/ .row -->
+                                    </li>
+                                    
+                                </ul> <!--/ .slides -->
+                                
+                            </div> <!--/ .flexslider-low-head-banner -->
+                            
+                        </div> <!--/ .low-head-banner-wrapper -->
+                        
+                    </div> <!--/ .row -->
+                    
+                </div> <!-- / .container -->
+                
+            </section>
+            <!--/ #head-banner -->
+            
+            
+            <!-- Marketing Section -->
+            <section id="marketing" style="margin-top: 60px;">
+            
+                <div class="container">
+                
+                    <div class="row">
+                    
+                        <div class="col-md-12 col-sm-12 centered section-title-wrapper">
+                            <h3 class="section-title">What Will You Get <span class="normal">From Katemi</span></h3>
+                            <p class="section-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus.</p>
+                        </div> <!--/ .section-title-wrapper -->
+                        
+                        <div class="col-md-4 col-sm-4 marketing-content centered">
+                            <img class="marketing-icon" src="/images/keyframes.png" alt="Marketing Icon" />
+                           	<h5>Engaging Landing Page</h5>
+                            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor.</p>
+                        </div> <!--/ .marketing-content -->
+                        
+                        <div class="col-md-4 col-sm-4 marketing-content centered">
+                            <img class="marketing-icon" src="/images/phone.png" alt="Marketing Icon" />
+                           	<h5>Fully Responsive Layout</h5>
+                            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor.</p>
+                        </div> <!--/ .marketing-content -->
+                        
+                        <div class="col-md-4 col-sm-4 marketing-content centered">
+                            <img class="marketing-icon" src="/images/settings.png" alt="Marketing Icon" />
+                           	<h5>Easy to Customize</h5>
+                            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor.</p>
+                        </div> <!--/ .marketing-content -->
+                        
+                    </div> <!--/ .row -->
+                
+                </div> <!-- / .container -->
+                
+            </section>
+            <!--/ #marketing -->
+            
+            
+            <!-- Horizontal Line -->
+            <div class="container">
+            
+                <div class="row">
+                
+                    <div class="col-md-12">
+                        <hr class="content-hr" />
+                    </div>
+                    
+                </div> <!--/ .row -->
+                
+            </div> <!--/ .container -->
+            <!--/ END Horizontal Line -->
+            
+            
+            <!-- Featurettes Section -->
+            <section id="featurettes">
+                
+                <div class="container">
+                    
+                    <div class="row">
+                        
+	                    <div class="col-md-12 centered section-title-wrapper" id="tour-3">
+                          	<h3 class="section-title">See All New <span class="normal">Katemi Features</span></h3>
+                            <p class="section-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus.</p>
+                        </div> <!--/ .section-title-wrapper -->
+                        
+                        <div class="col-md-6  col-sm-6 featurettes-content">
+                            
+                            <h4>Pro Support. <span class="lighter">All your problems will solved quickly with Live Chat support.</span></h4>
+                            
+							<a href="/images/teehanlax.jpg" rel="prettyPhoto[gallery]" title="You can add caption to pictures.">
+								<span class="col-md-6 rollover"></span>
+								<img class="center-image images-responsive" id="tour-4" src="/images/screenshot.png" alt="feature" />
+							</a>
+							
+                            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum.</p>	
+                            
+                            <a href="#" class="large-link">Learn More</a>
+                            
+                        </div> <!--/ .featurettes-content -->
+                        
+                        <div class="col-md-6 col-sm-6 featurettes-content">
+                        
+                            <h4>Mobile First. <span class="lighter">Never lose your potential customer, sign them on the go.</span></h4>
+                            <div class="row featurettes-inner-section">
+                            
+                                <div class="col-md-6 col-xs-6" id="tour-5">
+                                
+                                    <div class="flexslider-featurettes">
+                                    
+                                        <ul class="slides">
+                                            <li><img class="center-image" src="/images/iphone-ss1.png" alt="feature" /></li>
+                                            <li><img class="center-image" src="/images/iphone-ss2.png" alt="feature" /></li>
+                                        </ul>
+                                        
+                                    </div> <!--/ .flexslider-featurettes -->
+                                    
+                                </div>
+                                
+                                <div class="col-md-6 col-xs-6">
+                                
+                                    <ul class="checklist">
+                                        <li class="green-list">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</li>
+                                        <li class="green-list">Nullam quis risus eget urna leo.</li>
+                                        <li class="green-list">Pellentesque ornare sem lacinia quam venenatis vestibulum.</li>
+                                        <li class="green-list">Nullam quis risus eget urna leo.</li>
+                                    </ul> <!--/ .checklist -->
+                                    
+                                </div>
+                                
+                            </div> <!-- .featurettes-inner-section -->
+                            
+                            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum.</p>	
+                            <a href="#" class="large-link">Learn More</a>
+                            
+                        </div> <!--/ .featurettes-content -->
+                        
+                    </div> <!--/ .row -->
+                
+                </div> <!-- / .container -->
+                
+            </section>
+            <!--/ #featurettes -->
+            
+            
+            <!-- Horizontal Line -->
+            <div class="container">
+            
+                <div class="row">
+                
+                    <div class="col-md-12">
+                        <hr class="content-hr" />
+                    </div>
+                    
+                </div> <!--/ .row -->
+                
+            </div> <!--/ .container -->
+            <!--/ END Horizontal Line -->
+            
+            
+            <!-- Annotations Section -->
+            <section id="annotations">
+            
+                <div class="container">
+                
+                    <div class="row">
+                    
+                        <div class="col-md-12 centered section-title-wrapper">
+                        	<h3 class="section-title">Let's Take <span class="normal">a Closer Look</span></h3>
+                            <p class="section-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus.</p>
+                        </div> <!--/ .section-title-wrapper -->
+                        
+                        <div class="col-md-12">	
+                        	<a class="annotation-link product-dot1" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Pharetra Mattis Vestibulum Fringilla Fusce"></a>
+                            <a class="annotation-link product-dot2" href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."></a>	<a class="annotation-link product-dot3" href="#" data-toggle="tooltip" data-placement="right" title="" data-original-title="Cras mattis consectetur purus sit amet fermentum."></a>
+                            <a class="annotation-link product-dot4" href="#" data-toggle="tooltip" data-placement="left" title="" data-original-title="Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."></a>	<a class="annotation-link product-dot5" href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."></a>
+							<a class="annotation-link product-dot6" href="#" data-toggle="tooltip" data-placement="right" title="" data-original-title="Cras mattis consectetur purus sit amet fermentum."></a>	
+							<a class="annotation-link product-dot7" href="#" data-toggle="tooltip" data-placement="left" title="" data-original-title="Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."></a>
+                             <a class="annotation-link product-dot8" href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum."></a>
+                             
+                             <img id="tour-7" class="center-image images-responsive" src="/images/big-ss.png" alt="annotation" />
+                             
+                        </div>
+                        
+                    </div> <!--/ .row -->
+                    
+                </div> <!-- / .container -->
+                
+            </section>
+            <!--/ #annotations -->
+            
+            
+            <!-- Horizontal Line -->
+            <div class="container">
+            
+                <div class="row">
+                
+                    <div class="col-md-12">
+                        <hr class="content-hr" />
+                    </div>
+                    
+                </div> <!--/ .row -->
+                
+            </div> <!--/ .container -->
+            <!--/ END Horizontal Line -->
+            
+            
+            <!-- Lower Content Section -->
+            <section id="lower-content">
+            
+                <div class="container">
+                
+                    <div class="row">
+                    
+                        <div class="col-md-12 centered section-title-wrapper">
+                            <h3 class="section-title">See Plans <span class="normal">and Pricing</span></h3>
+                            <p class="section-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus.</p>
+                        </div> <!--/ .section-title-wrapper -->
+                        
+                        <div class="col-md-3 col-sm-3 pricing-table centered">
+                            <div class="pricing-head">
+                            
+                            	<h5>Bronze</h5>
+                            	
+                                <div class="the-price">
+                                	<h1>$10<span class="subscript">/mo</span></h1>
+									<small>1 month FREE trial</small>
+                                </div> <!--/ .the-price -->
+                                
+                            </div> <!--/ .pricing-head -->
+                            
+                            <div class="pricing-content">
+                                <ul>
+                                    <li>1 Account</li>
+                                    <li>1 Project</li>
+                                    <li>100K API Access</li>
+                                    <li>100MB Storage</li>
+                                    <li>Custom Cloud Services</li>
+                                    <li>Performance Management</li>
+                                    <li>Weekly Reports</li>
+                                </ul>
+                            </div> <!--/ .pricing-content -->
+                            
+                            <div class="pricing-table-button">	
+                            	<a href="#" class="small-btn btn-default green-btn btn-default uppercase">Sign Up</a>
+                            </div>
+                            
+                        </div> <!--/ .pricing-table -->
+                        
+                        <div class="col-md-3 col-sm-3 pricing-table centered">
+                            <div class="pricing-head">
+                                	
+                                <h5>Silver</h5>
+                                
+                                <div class="the-price">
+                                    	<h1>$20<span class="subscript">/mo</span></h1>
+										<small>1 month FREE trial</small>
+                                </div> <!--/ .the-price -->
+                                
+                            </div> <!--/ .pricing-head -->
+                            
+                            <div class="pricing-content">
+                                <ul>
+                                    <li>2 Accounts</li>
+                                    <li>5 Projects</li>
+                                    <li>100K API Access</li>
+                                    <li>200MB Storage</li>
+                                    <li>Custom Cloud Services</li>
+                                    <li>Performance Management</li>
+                                    <li>Weekly Reports</li>
+                                </ul>
+                            </div> <!--/ .pricing-content -->
+                            
+                            <div class="pricing-table-button">	
+                            	<a href="#" class="small-btn btn-default green-btn btn-default uppercase">Sign Up</a>
+                            </div>
+                            
+                        </div>
+                        <!--/ .pricing-table -->
+                        
+                        <div class="col-md-3 col-sm-3 pricing-table popular centered" id="tour-8">
+                            <div class="pricing-head">
+                                	
+                                <h5>Gold</h5>
+                                
+                                <div class="the-price">
+                                    	<h1>$35<span class="subscript">/mo</span></h1>
+										<small>1 month FREE trial</small>
+                                </div> <!--/ .the-price -->
+                            
+                            </div> <!--/ .pricing-head -->
+                            
+                            <div class="pricing-content">
+                                <ul>
+                                    <li>5 Accountd</li>
+                                    <li>20 Projectd</li>
+                                    <li>300K API Access</li>
+                                    <li>500MB Storage</li>
+                                    <li>Custom Cloud Services</li>
+                                    <li>Performance Management</li>
+                                    <li>Weekly Reports</li>
+                                </ul>
+                            </div> <!--/ .pricing-content -->
+                            
+                            <div class="pricing-table-button">	
+                            	<a href="#" class="small-btn btn-default green-btn btn-default uppercase">Sign Up</a>
+                            </div>
+                            
+                        </div> <!--/ .pricing-table -->
+                        
+                        <div class="col-md-3 col-sm-3 pricing-table centered">
+                            <div class="pricing-head">
+                                
+                                <h5>Platinum</h5>
+                                <div class="the-price">
+                                    	<h1>$55<span class="subscript">/mo</span></h1>
+										<small>1 month FREE trial</small>
+                                </div> <!--/ .the-price -->
+                            
+                            </div> <!--/ .pricing-head -->
+                            
+                            <div class="pricing-content">
+                                <ul>
+                                    <li>10 Accounts</li>
+                                    <li>35 Project</li>
+                                    <li>500K API Access</li>
+                                    <li>1000MB Storage</li>
+                                    <li>Custom Cloud Services</li>
+                                    <li>Performance Management</li>
+                                    <li>Weekly Reports</li>
+                                </ul>
+                            </div> <!--/ .pricing-content -->
+                            
+                            <div class="pricing-table-button">	
+                            	<a href="#" class="small-btn btn-default green-btn btn-default uppercase">Sign Up</a>
+                            </div>
+                            
+                        </div> <!--/ .pricing-table -->
+                        
+                        <div class="col-md-12 centered">
+                            <p style="margin: 20px 0;">Do you have any other ideas regarding the service plans? We'd love to hear from you! Let's <a href="#contactModal" data-toggle="modal" id="tour-9">Contact Us</a>.</p>
+                        </div>
+                        
+                    </div> <!--/ .row -->
+                    
+                </div> <!-- / .container -->
+                
+            </section>
+            <!--/ #lower-content -->
+
+
+            <!-- Breakline Section -->
+            <section id="breakline" class="dark-bg">
+            
+                <div class="container">
+                
+                    <div class="row">
+                    
+                        <div class="col-md-7 col-sm-7">
+                        	<h3 class="centered normal">Subscribe and be the first to know all updates and special offers!</h3>
+                        </div>
+                        
+                        <div class="col-md-5 col-sm-5" id="tour-9">
+                        
+                            <form id="subscribe_form" action="subscribe.php" method="post">
+                                <input id="subscribe_email" class="subscribe-input" placeholder="Enter your valid email address..." type="text" value="" name="subscribe" />
+                                <input id="subscribe_btn btn-default" class="subscribe-submit yellow-btn btn-default" type="submit" value="Subscribe" />
+                            </form>
+                            <!--/ #subscribe_form -->
+                            
+                            <!-- Alert Message for Subscribe Form -->
+                            <div class="row">
+                            
+                                <div class="subscribe-alert">
+                                
+                                    <div class="alert alert-error form-error-message" id="subscribe_error">
+                                        <button type="button" class="close" data-dismiss="alert">×</button>	
+                                        <span class="alert-icon"><i class="glyphicon glyphicon-fire icon-white"></i></span>
+										<strong>Error!</strong> Please enter your valid email address.
+									</div>
+									
+                                    <div class="alert alert-success form-error-message" id="subscribe_success">
+                                        <button type="button" class="close" data-dismiss="alert">×</button> 
+                                        <span class="alert-icon"><i class="glyphicon glyphicon-thumbs-up icon-white"></i></span>
+										<strong>Success!</strong>You've been subscribed.
+									</div>
+										
+									<div class="alert form-error-message" id="subscribe_fail">
+                                        <button type="button" class="close" data-dismiss="alert">×</button>
+                                        <span class="alert-icon"><i class="glyphicon glyphicon-bullhorn icon-white"></i></span>
+										<strong>Sorry!</strong> An error occured when subscribing your email.
+									</div>
+									
+                                </div> <!-- subscribe-alert -->
+                            
+                            </div>
+                            <!-- END Alert Message for Subscribe Form -->
+                            
+                            <p class="subscribe-text centered">* Don't worry to subscribe. We hate spam too!</p>
+                            
+                        </div>
+                        
+                    </div> <!--/ .row -->
+                    
+                </div> <!-- / .container -->
+                
+            </section>
+            <!--/ #breakline -->
+            
+            
+            <!-- Contact Modal -->
+            <div id="contactModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                
+                <div class="modal-dialog">
+                
+                    <div class="modal-content">
+                    
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h5 class="modal-label">Contact Us</h5>
+                        </div> <!--/ .modal-header -->
+                        
+                        <div class="modal-body contact-form-container">
+                        
+                            <form name="contactForm" id="contact_form" action="contact.php" method="post">
+                            
+                                <div class="row">
+                                    <!-- Alert Message for Contact Form -->
+                                    <div class="alert alert-error form-error-message" id="name_error">
+	                                    <button type="button" class="close" data-dismiss="alert">×</button>
+	                                    <span class="alert-icon"><i class="glyphicon glyphicon-fire icon-white"></i></span>
+										<strong>Error!</strong> Please enter your name.
+									</div>
+									
+                                    <div class="alert alert-error form-error-message" id="email_error">
+                                        <button type="button" class="close" data-dismiss="alert">×</button>
+                                        <span class="alert-icon"><i class="glyphicon glyphicon-fire icon-white"></i></span>
+										<strong>Error!</strong> Please enter your valid email address.
+									</div>
+                                    
+                                    <div class="alert alert-error form-error-message" id="subject_error">
+                                        <button type="button" class="close" data-dismiss="alert">×</button>
+                                        <span class="alert-icon"><i class="glyphicon glyphicon-fire icon-white"></i></span>
+										<strong>Error!</strong> Please enter your subject.
+									</div>
+                                    
+                                    <div class="alert alert-error form-error-message" id="message_error">
+                                        <button type="button" class="close" data-dismiss="alert">×</button>
+                                        <span class="alert-icon"><i class="glyphicon glyphicon-fire icon-white"></i></span>
+										<strong>Error!</strong> Please enter your message.
+									</div>
+                                    <!--/ END Alert Message for Subscribe Form -->
+                                </div> <!--/ .row -->
+                                
+                                <div class="row">
+                                
+                                    <div class="col-md-6">
+                                        <label>Name :</label>
+                                        <input name="thename" class="contact-input" id="name" type="text" placeholder="Input your name.." />
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <label>Email :</label>
+                                        <input name="email" class="contact-input" id="email" type="text" placeholder="Input your email.." />
+                                    </div>
+                                    
+                                </div>  <!--/ .row -->
+                                
+                                <div class="row">
+                                
+                                    <div class="col-md-12">
+                                        <label>Subject :</label>
+                                        <input name="subject" class="contact-input" id="subject" type="text" placeholder="Input your subject.." />
+                                    </div>
+                                    
+                                </div> <!--/ .row -->
+                                
+                                <div class="row">
+                                
+                                    <div class="col-md-12">
+                                    
+                                        <label>Message :</label>
+                                        <textarea id="message" name="message" rows="7" placeholder="Your message"></textarea>
+                                        
+                                    </div>
+                                    
+                                </div> <!--/ .row -->
+                                
+                                <div class="row">
+                                
+                                    <div class="alert alert-success form-error-message" id="mail_success">
+                                        <button type="button" class="close" data-dismiss="alert">×</button>
+                                        <span class="alert-icon"><i class="glyphicon glyphicon-thumbs-up icon-white"></i></span>
+										<strong>Success!</strong>Your message has been sent successfully.
+									</div>
+                                    
+                                    <div class="alert form-error-message" id="mail_fail">
+                                        <button type="button" class="close" data-dismiss="alert">×</button>	
+                                        <span class="alert-icon"><i class="glyphicon glyphicon-bullhorn icon-white"></i></span>
+										<strong>Sorry!</strong> An error occured this time sending your message.
+									</div>
+									
+                                </div> <!--/ .row -->
+                                
+                                <div class="row">
+                                
+                                    <div class="col-md-12" id="submit">
+                                        <input type="submit" id="send_message" class="send-button green-btn btn-default"
+                                        name="submit" value="Send Message" />
+                                    </div>
+                                    
+                                </div> <!--/ .row -->
+                                
+                            </form> <!-- END Contact Form -->
+                            
+                        </div> <!--/ .modal-body -->
+                        
+                    </div> <!--/ .modal-content -->
+                    
+                </div> <!--/ .modal-dialog -->
+                
+            </div>
+            <!--/ END Contact Modal -->
+            
+
+            <!-- Footer Section -->
+            <section id="footer">
+            
+                <div class="container">
+                
+                    <div class="row">
+                    
+                        <div class="col-md-6 col-sm-6">
+                            <p class="copyright">
+                            <img src="images/small-logo.png" alt="Footer Logo" />© copyright 2013. all rights reserved</p>
+                        </div>
+                        
+                        <div class="col-md-6 col-sm-6">
+                        
+                            <ul class="social pull-right">
+		    					<li><a href="#"><span aria-hidden="true" class="icon-facebook"></span></a></li>
+			     				<li><a href="#"><span aria-hidden="true" class="icon-twitter"></span></a></li>
+			     				<li><a href="#"><span aria-hidden="true" class="icon-googleplus"></span></a></li>
+			     				<li><a href="#"><span aria-hidden="true" class="icon-linkedin"></span></a></li>
+		    				</ul><!--/ .green-social -->
+		    				
+                        </div>
+                        
+                    </div> <!--/ .row -->
+                    
+                </div> <!-- / .container -->
+                
+            </section>
+            <!--/ #footer -->
+            
+        </div>
+        <!--/ END Main Container -->
+        
+        <!-- Le javascript==================================================-->
+        <!-- Placed at the end of the document so the pages load faster 
+
+	    <script src="js/jquery.js"></script>-->
+	    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script> 
+	    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+	    <script type="text/javascript" src="js/jquery.nav.js"></script>
+	    <script type="text/javascript" src="js/hopscotch-0.1.2.min.js"></script>
+	    <script type="text/javascript" src="js/katemi.js"></script>
+<!--	    <script type="text/javascript" src="js/katemi-take-tour2.js"></script> -->
+
+	</body>
+
+</template>
