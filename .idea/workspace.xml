@@ -2,11 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7973da6-070c-4f11-8316-d7c97e0bbaff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/app/user/uTrackProgress.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/adminplus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap-datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap-timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/datatables-bootstrap3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/dropzone.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/dropzone.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery-jvectormap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.bootstrap-touchspin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.countdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.fancytree-all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.jvectormap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.nestable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/nouislider.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/nouislider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/raphael-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/summernote.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/sweetalert.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tether.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/app-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/arrow1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/arrow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/intro01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/intro02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/intro03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/item-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/item-02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/mobile.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/therapist/tAccount.html" afterPath="$PROJECT_DIR$/client/app/therapist/tAccount.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/userSidebarLeft.html" afterPath="$PROJECT_DIR$/client/templates/userSidebarLeft.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/non-member/landingPage.html" afterPath="$PROJECT_DIR$/client/app/non-member/landingPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/therapist/tStatement.html" afterPath="$PROJECT_DIR$/client/app/therapist/tStatement.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/user/uDashboard.html" afterPath="$PROJECT_DIR$/client/app/user/uDashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/user/uTrackProgress.html" afterPath="$PROJECT_DIR$/client/app/user/uTrackProgress.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/homepage.html" afterPath="$PROJECT_DIR$/client/templates/homepage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/router.js" afterPath="$PROJECT_DIR$/lib/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery.min.js" afterPath="$PROJECT_DIR$/public/js/jquery.min.js" />
     </list>
     <ignored path="PsychEv-Launch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,103 +62,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="userSidebarLeft.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/templates/userSidebarLeft.html">
+      <file leaf-file-name="landingPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/non-member/landingPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.88863635">
-              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+            <state vertical-scroll-proportion="-13.076923">
+              <caret line="71" column="40" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uChat.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/user/uChat.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/themeforest-5792983-katemi-clean-product-and-app-landing-page/Katemi Landing Page v2.0/HTML Files/product-layout/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="155" column="56" selection-start-line="155" selection-start-column="56" selection-end-line="155" selection-end-column="56" />
+            <state vertical-scroll-proportion="5.8846154">
+              <caret line="0" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uCourseList.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/user/uCourseList.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/app/non-member/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.0">
-              <caret line="97" column="44" selection-start-line="97" selection-start-column="44" selection-end-line="97" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uAccount.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/user/uAccount.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077">
-              <caret line="196" column="38" selection-start-line="196" selection-start-column="38" selection-end-line="196" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tDashboard.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/therapist/tDashboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="91" column="76" selection-start-line="91" selection-start-column="76" selection-end-line="91" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tAccount.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/therapist/tAccount.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="13.153846">
-              <caret line="69" column="116" selection-start-line="69" selection-start-column="116" selection-end-line="69" selection-end-column="116" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.7516779">
+              <caret line="123" column="92" selection-start-line="123" selection-start-column="92" selection-end-line="123" selection-end-column="92" />
               <folding>
-                <element signature="e#0#45#0" expanded="false" />
+                <element signature="n#style#0;n#section#2;n#div#0;n#body#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#5;n#div#0;n#div#0;n#section#5;n#div#0;n#body#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/navbar.html">
+      <file leaf-file-name="style-responsive2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/style-responsive2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uCourseDetails.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/user/uCourseDetails.html">
+      <file leaf-file-name="style2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/style2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="211" selection-start-line="43" selection-start-column="211" selection-end-line="43" selection-end-column="211" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landingPage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app/non-member/landingPage.html">
+      <file leaf-file-name="animate.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/animate.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="97" selection-start-line="38" selection-start-column="97" selection-end-line="38" selection-end-column="97" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.prettyPhoto.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/jquery.prettyPhoto.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uQuiz.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/user/uQuiz.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-54.192307">
+              <caret line="105" column="186" selection-start-line="105" selection-start-column="186" selection-end-line="105" selection-end-column="186" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="therapistSidebarLeft.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/therapistSidebarLeft.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="33" column="75" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uDashboard.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app/user/uDashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-32.03846">
+              <caret line="95" column="67" selection-start-line="95" selection-start-column="67" selection-end-line="95" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -155,7 +191,6 @@
         <option value="$PROJECT_DIR$/client/app/therapist/tProfile.html" />
         <option value="$PROJECT_DIR$/client/app/therapist/tEarnings.html" />
         <option value="$PROJECT_DIR$/client/app/therapist/tPublicProfile.html" />
-        <option value="$PROJECT_DIR$/client/app/therapist/tStatement.html" />
         <option value="$PROJECT_DIR$/client/app/member/uCourseList.html" />
         <option value="$PROJECT_DIR$/client/templates/studentSidebarLeft.html" />
         <option value="$PROJECT_DIR$/client/app/therapist/tMessages.html" />
@@ -164,7 +199,6 @@
         <option value="$PROJECT_DIR$/client/app/user/uChat.html" />
         <option value="$PROJECT_DIR$/client/app/user/uBilling.html" />
         <option value="$PROJECT_DIR$/client/templates/therapistSidebarLeft.html" />
-        <option value="$PROJECT_DIR$/client/app/non-member/landingPage.html" />
         <option value="$PROJECT_DIR$/client/app/therapist/tDashboard.html" />
         <option value="$PROJECT_DIR$/client/templates/navbar.html" />
         <option value="$PROJECT_DIR$/client/app/user/uViewCourse.html" />
@@ -172,8 +206,15 @@
         <option value="$PROJECT_DIR$/client/app/user/uCourseList.html" />
         <option value="$PROJECT_DIR$/client/app/user/uAccount.html" />
         <option value="$PROJECT_DIR$/client/app/therapist/tAccount.html" />
-        <option value="$PROJECT_DIR$/lib/router.js" />
         <option value="$PROJECT_DIR$/client/templates/userSidebarLeft.html" />
+        <option value="$PROJECT_DIR$/client/app/user/uTrackProgress.html" />
+        <option value="$PROJECT_DIR$/client/templates/homepage.html" />
+        <option value="$PROJECT_DIR$/client/app/therapist/tStatement.html" />
+        <option value="$PROJECT_DIR$/lib/router.js" />
+        <option value="$PROJECT_DIR$/client/app/user/uDashboard.html" />
+        <option value="$PROJECT_DIR$/client/app/user/uQuiz.html" />
+        <option value="$PROJECT_DIR$/client/app/non-member/landingPage.html" />
+        <option value="$PROJECT_DIR$/client/app/non-member/index.html" />
       </list>
     </option>
   </component>
@@ -412,8 +453,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -433,9 +474,11 @@
       <recent name="D:\Business data\My Websites\PsychEv-Launch\client\templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Business data\My Websites\PsychEv-Launch\public\css" />
+      <recent name="D:\Business data\My Websites\PsychEv-Launch\client\app\non-member" />
       <recent name="D:\Business data\My Websites\PsychEv-Launch\public\js" />
+      <recent name="D:\Business data\My Websites\PsychEv-Launch\public\images" />
       <recent name="D:\Business data\My Websites\PsychEv-Launch\public" />
-      <recent name="D:\Business data\My Websites\PsychEv-Launch\public\app" />
     </key>
   </component>
   <component name="RunManager" selected="Meteor.Run Meteor">
@@ -652,7 +695,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464766393117</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Landing Page + Dashboard v1.3">
+      <created>1464767526462</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1464767526462</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
@@ -668,22 +717,22 @@
     <frame x="-8" y="0" width="1452" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2510608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2510608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257066" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33512786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3257066" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33512786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -714,89 +763,14 @@
     <MESSAGE value="Landing Page + Dashboard v1.2.7" />
     <MESSAGE value="Landing Page + Dashboard v1.2.8" />
     <MESSAGE value="Landing Page + Dashboard v1.2.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Landing Page + Dashboard v1.2.9" />
+    <MESSAGE value="Landing Page + Dashboard v1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Landing Page + Dashboard v1.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/templates/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../learnplus-v1.0.1/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/scripts/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/bootstrap-3.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/non-member/landingPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/user/uDashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/userSidebarLeft.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../learnplus-v1.0.1/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -843,13 +817,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/chart.min.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/main.js">
@@ -887,13 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/therapist/tStatement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/therapist/tEarnings.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -915,13 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/user/uDashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../learnplus-v1.0.1/dist/instructor-messages.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.094382">
@@ -933,13 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.6754807">
           <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/scripts/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -985,13 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/user/uBilling.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/jquery-2.2.4.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1006,42 +952,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/therapistSidebarLeft.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="77" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app/user/uChat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="155" column="56" selection-start-line="155" selection-start-column="56" selection-end-line="155" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/user/uCourseList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.0">
-          <caret line="97" column="44" selection-start-line="97" selection-start-column="44" selection-end-line="97" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/therapist/tDashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="76" selection-start-line="91" selection-start-column="76" selection-end-line="91" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,18 +975,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/non-member/landingPage.html">
+    <entry file="file://$PROJECT_DIR$/client/templates/userSidebarLeft.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="97" selection-start-line="38" selection-start-column="97" selection-end-line="38" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/user/uAccount.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="196" column="38" selection-start-line="196" selection-start-column="38" selection-end-line="196" selection-end-column="38" />
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -1085,21 +991,176 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/therapist/tDashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="76" selection-start-line="91" selection-start-column="76" selection-end-line="91" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/user/uAccount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="196" column="38" selection-start-line="196" selection-start-column="38" selection-end-line="196" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/user/uCourseList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="44" selection-start-line="97" selection-start-column="44" selection-end-line="97" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/bootstrap-datepicker.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/user/uTrackProgress.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/scripts/helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/user/uBilling.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/therapist/tStatement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7692307">
+          <caret line="36" column="74" selection-start-line="36" selection-start-column="74" selection-end-line="36" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../learnplus-v1.0.1/dist/take-quiz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6923075">
+          <caret line="346" column="8" selection-start-line="262" selection-start-column="0" selection-end-line="346" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/userSidebarLeft.html">
+    <entry file="file://$PROJECT_DIR$/client/templates/therapistSidebarLeft.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88863635">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="33" column="75" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="78" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/user/uDashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-32.03846">
+          <caret line="95" column="67" selection-start-line="95" selection-start-column="67" selection-end-line="95" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/user/uQuiz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-54.192307">
+          <caret line="105" column="186" selection-start-line="105" selection-start-column="186" selection-end-line="105" selection-end-column="186" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/animate.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/jquery.prettyPhoto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style-responsive2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/themeforest-5792983-katemi-clean-product-and-app-landing-page/Katemi Landing Page v2.0/HTML Files/product-layout/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.8846154">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/non-member/landingPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="71" column="40" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/non-member/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7516779">
+          <caret line="123" column="92" selection-start-line="123" selection-start-column="92" selection-end-line="123" selection-end-column="92" />
+          <folding>
+            <element signature="n#style#0;n#section#2;n#div#0;n#body#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#5;n#div#0;n#div#0;n#section#5;n#div#0;n#body#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

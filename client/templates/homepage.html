@@ -1,7 +1,7 @@
 <template name="homepage">
 {{#if canShow}}
-    {{> uDashboard }}
+    {{> uDashboard }}   <!-- if user is logged in, display dashboard directly -->
 {{else}}
-    {{> landingPage }}
+    {{> landingPage }}  <!-- else display landing page with sales text -->
 {{/if}}
 </template>
