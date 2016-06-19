@@ -37,6 +37,33 @@
             </p>
             <div class="clearfix"></div>
             <div class="card-columns">
+
+                {{#each hackList}}
+                <div class="card">
+                    <div class="card-header bg-white center">
+                        <h4 class="card-title"><a href="take-course.html">{{title}}</a></h4>
+                        <div>
+                            <i class="material-icons text-warning md-18">star</i>
+                            <i class="material-icons text-warning md-18">star</i>
+                            <i class="material-icons text-warning md-18">star</i>
+                            <i class="material-icons text-warning md-18">star</i>
+                            <i class="material-icons text-warning md-18">star_border</i>
+                        </div>
+                    </div>
+                    <a href="take-course.html">
+                        <img src="assets/images/vuejs.png" alt="Card image cap" style="width:100%;">
+                    </a>
+                    <div class="card-block">
+                        <small class="text-muted">{{difficulty}}</small>
+                        <p class="m-b-0">
+                            {{summary}}
+                        </p>
+                        <p><span class="label label-primary">{{trackLength}} minutes</span></p>
+                        <p><span class="label label-primary">{{hackLength}} weeks</span></p>
+                    </div>
+                </div>
+                {{/each}}
+
                 <div class="card">
                     <div class="card-header bg-white center">
                         <h4 class="card-title"><a href="take-course.html">Focus Training / ADHD Relief</a></h4>
